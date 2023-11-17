@@ -1,0 +1,39 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    min-height: 60px;
+    background-color: #F5F9EA;
+}
+footer{
+    min-height: 30px;
+    background-color: #F5F9EA;
+}
+main{
+    min-height: 800px;
+    background-image: url(image/strip.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* .cardFather{
+} */
+.card{
+    background-color: #1F1D43;
+    border-radius: 0;
+    color: #F5F9EA;
+    transition: 1s;
+
+}
+.card:hover {
+    transform: scale(1.2,1.2);
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: overline;
+}
+li{
+    list-style-type: none;
+  }
